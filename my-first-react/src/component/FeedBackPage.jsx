@@ -9,23 +9,23 @@ export default function FeedBackPage() {
 
     <div className='flex flex-col gap-y-2 mb-5'>
       <div className='flex gap-2'>
-        <input type="checkbox" id="Very satisfied" className='' />
+        <input type="checkbox" id="Very satisfied" className='w-6 h-6' />
         <label htmlFor="Very satisfied">Very satisfied</label>
       </div>
       <div className='flex gap-2'>
-        <input type="checkbox" id="Somewhat satisfied" className='' />
+        <input type="checkbox" id="Somewhat satisfied" className='w-6 h-6' />
         <label htmlFor="Somewhat satisfied">Somewhat satisfied</label>
       </div>
       <div className='flex gap-2'>
-        <input type="checkbox" id="Neutral" className='' />
+        <input type="checkbox" id="Neutral" className='w-6 h-6' />
         <label htmlFor="Neutral">Neutral</label>
       </div>
       <div className='flex gap-2'>
-        <input type="checkbox" id="Somewhat dissastisfied" className='' />
+        <input type="checkbox" id="Somewhat dissastisfied" className='w-6 h-6' />
         <label htmlFor="Somewhat dissastisfied">Somewhat dissastisfied</label>
       </div>
       <div className='flex gap-2'>
-        <input type="checkbox" id="Very dissatisfied" className='' />
+        <input type="checkbox" id="Very dissatisfied" className='w-6 h-6' />
         <label htmlFor="Very dissatisfied">Very dissatisfied</label>
       </div>
     </div>
