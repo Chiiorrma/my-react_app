@@ -1,22 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import FeedBackPage from "./component/FeedBackPage"
+import CreateMealPlan from './component/CreateMealPlan'
+import MealSchedule from './component/MealSchedule'
+import SelectPreference from './component/SelectPreference'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      <MealSchedule />
+      <hr />
+      <SelectPreference />
+      <hr />
+      <FeedBackPage />
+      <hr />
+      <CreateMealPlan />
+      <hr />
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
